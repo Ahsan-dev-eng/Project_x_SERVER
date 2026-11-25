@@ -1,1 +1,29 @@
+# Dependencies
+node_modules/
+
+# Environment variables and secrets
+.env
 .env.local
+.env.*.local
+*.env
+
+# Firebase service account keys - never commit these
+*serviceAccount*.json
+serviceAccountKey.json
+firebase-service-account.json
+
+# Local tooling artefacts
+.parts/
+reports/
+*.log
+npm-debug.log*
+
+# Scratch captures of local command output (root level only)
+/*.txt
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
